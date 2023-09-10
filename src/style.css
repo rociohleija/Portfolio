@@ -30,19 +30,13 @@ h2 {
 p {
    font-weight: normal;
    font-size: 16px;
-   line-height: 1.5;
+   line-height: 30px;
 }
 
 .hero{
     background: var(--secondary-color);
     text-align: center;
     padding: 160px 20px;
-}
-.hero h3 {
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-    font-weight: normal;
 }
 .hero h2 {
     font-family: var(--heading-font-family);
@@ -51,10 +45,26 @@ p {
     color: rgba(39, 33, 66, 1);
     line-height: 1.5;
 }
+.hero h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    font-weight: normal;
+}
+.hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+  }
 
 .content-container {
     padding: 160px 20px;
 }
+
+.content {
+    margin: 30px;
+  }
 .content h1 {
     font-size: 64px;
     line-height: 80px;
