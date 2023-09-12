@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+    <meta name="description" content="About Rocio Hernandez Front-end developer/Bilingual Educator" />
+    <title>About Rocio - Rocio Hernandez</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/4f9f9efba6.js" crossorigin="anonymous"></script>
@@ -15,6 +18,28 @@
     <link rel="stylesheet" href="src/style.css" />
 </head>
 <body>
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+     <a href="/" title="Homepage">
+      <img src="images/logo.png" alt="Rocio Logo" class="d-none d-md-block" /> 
+      <img src="images/small-logo.jpg" alt="Rocio Logo" class="logo d-block d-md-none" />
+    </a>
+      <ul>
+       <li>
+         <a href="/" title="Homepage"> Home </a>
+       </li>
+       <li class="active">
+         <a href="/about.html" title="About Rocio"> About </a>
+       </li>
+       <li>
+         <a href="/work.html" title="Rocio's work"> Work </a>
+       </li>
+       <li>
+         <a href="/contact.html" title="Contact Rocio"> Contact </a>
+       </li>
+      </ul>
+    </nav>
+   </div>
   <div class="content-container container">
    <div class="row">
     <div class="col-lg-6">
@@ -33,14 +58,59 @@
         In this website I will be presenting projects that I have made along
         the way in SheCodes Workshops. 
     </p>
-    <a href="" class="btn btn-branding">View my projects</a>
+    <a href="/work.html" class="btn btn-branding">View my projects</a>
         </div>
     </div>
     <div class="col-lg-6">
-      <img src="images/rocio.jpg" alt="picture of myself"
-      class="img-fluid border border-5 rounded-circle image-rocio"/>
+      <img src="images/rocio.jpg" alt="picture of Rocio"
+      class="img-fluid rocio-image"/>
     </div>
    </div>
+   <footer>
+    <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+      <div>
+        <h3>Work Inquiry</h3>
+        <p class="text-muted">Let's work together</p>
+      </div>
+      <div>
+        <a 
+        href="/contact.html" 
+        class="btn btn-branding mt-3" 
+        title="Contact Rocio"
+        > 
+        Contact me 
+        </a>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center mb-5 ">
+      <a 
+      href="mailto:rociohernandez_11.com" 
+      class="email-link" 
+      title="Email Rocio"
+      >
+        rociohernandez_11@yahoo.com
+      </a>
+    </div>
+    <div class="social-links d-flex justify-content-center">
+      <a 
+      href="https://github.com/rociohleija" 
+      target="_blank" 
+      title="GitHub Profile"
+      >
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/rocio-hernandez-10b36b27b/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </div>
+    <p class="text-center mt-5">
+     👩‍💻 This project was coded by Rocio Hernandez, and it 
+     is  
+     <a href="https://github.com/rociohleija" target="_blank">
+     open-sourced.
+     </a>
+    </p>
+  </footer>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

@@ -26,7 +26,7 @@ h1 {
 h2 {
     font-size: 64px;
 }
-h4 {
+h3 {
     font-size: 48px;
 }
 
@@ -39,7 +39,7 @@ p {
 .hero{
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 .hero h2 {
     font-family: var(--heading-font-family);
@@ -62,7 +62,7 @@ p {
   }
 
 .content-container {
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 
 .content {
@@ -108,11 +108,6 @@ p {
 .project-description {
     padding: 120px 60px; 
 }
-
-.image-rocio:hover {
-    border: 5px solid #fac832;
-    border-radius: 50%;
-  }
 
   .logo {
     max-height: 40px;
@@ -174,6 +169,49 @@ footer .social-links a:hover {
     background: var(--branding-color);
 }
 
+.rocio-image {
+    border-radius: 50%;
+
+
+}
+.rocio-image:hover {
+    border-radius: 50%;
+    border: 10px solid #fac832;;
+  }
+
+.mexican-cuisine-image {
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+.mexican-cuisine-image:hover {
+    filter: contrast(80%);
+    transform: scale(1.02);
+}
+.weather-image {
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+.weather-image:hover {
+    filter: contrast(80%);
+    transform: scale(1.02);
+}
+.torta-image {
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+.torta-image:hover {
+    filter: contrast(80%);
+    transform: scale(1.02);
+}
+.world-clock-image {
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+.world-clock-image:hover {
+    filter: contrast(80%);
+    transform: scale(1.02);
+}
+
 
 @media (max-width: 900px) {
     h1 {
@@ -183,18 +221,26 @@ footer .social-links a:hover {
     h2 {
         font-size: 44px;
     }
-    h4 {
+    h3 {
         font-size: 26px;
-    }
-    .hero {
-        padding: 80px 
     }
     .content {
         text-align: center;
         padding: 0;
     }
+    .content h1 {
+        font-size: 44px;
+        line-height: 56px;
+    }
     .project-description {
         padding: 0;
         text-align: center;
+    }
+    footer .contact-box {
+        padding: 0;
+        text-align: center;
+    }
+    footer .email-link {
+        font-size: 20px;
     }
 }
