@@ -195,11 +195,11 @@ footer .social-links a:hover {
     filter: contrast(80%);
     transform: scale(1.02);
 }
-.torta-image {
+.style-dictionary-image {
     border-radius: 10px;
     transition: all 150ms ease-in-out;
 }
-.torta-image:hover {
+.style-dictionary-image:hover {
     filter: contrast(80%);
     transform: scale(1.02);
 }
