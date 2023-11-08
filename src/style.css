@@ -109,7 +109,7 @@ p {
     padding: 120px 60px; 
 }
 .logo-initials {
- 
+    max-height: 50px;
 }
 
   .logo {
